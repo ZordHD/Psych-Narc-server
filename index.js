@@ -10,7 +10,7 @@ const ErrorHandler = require('./middleware/ErrorHandlingMiddleware')
 const path = require('path')
 const WebSocket = require('ws');
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.RENDER_DB_PORT || 5000
 
 // Инициализация Express-приложения
 const app = express()
